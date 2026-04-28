@@ -1,163 +1,7 @@
 proxies:
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 40443
-    server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-  - name: "\U0001F1EF\U0001F1F5JP_2|1.0MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 7443
-    server: jc7U654714155239.asia.steamliveonline.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jc7U654714155239.asia.steamliveonline.com
-  - name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
-    network: ws
-    port: 2083
-    server: xn-dns.onlineblog.ir
-    tls: true
-    type: vless
-    uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
-    ws-opts:
-      headers:
-        Host: xn-de.shakhle.ir.
-      path: /
-    servername: xn-de.shakhle.ir.
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 40022
-    server: 163.172.113.118
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    name: "\U0001F1F5\U0001F1F1PL_1|939KB/s"
-    network: grpc
-    port: 443
-    server: 193.34.212.80
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-    xudp: true
-    servername: 193.34.212.80.vhub.pro
-  - cipher: aes-256-cfb
-    name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 51.15.17.169
-    type: ss
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_3|1.9MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 443
-    server: cj04.71edgeiqiyi.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: cj04.71edgeiqiyi.com
-  - name: "\U0001F1EF\U0001F1F5JP_4|2.0MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 443
-    server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-  - name: "\U0001F1EF\U0001F1F5JP_5|3.4MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 40443
-    server: jbu654714155239871.j4cdn.cdnxiaohongshu.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jbu654714155239871.j4cdn.cdnxiaohongshu.com
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|659KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.30
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    password: 0b869f32-657e-11ee-a90c-f23c9313b177
-    port: 443
-    server: 4bd2182f-te8ao0-tfn5eh-24c4.fmtdc1.sghuawei.com
-    tls: true
-    type: http
-    username: 0b869f32-657e-11ee-a90c-f23c9313b177
-    sni: 4bd2182f-te8ao0-tfn5eh-24c4.fmtdc1.sghuawei.com
-  - cipher: aes-256-cfb
-    delay: 589
-    name: "\U0001F1FB\U0001F1F3VN_2|808KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.58
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_3|970KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.230
-    type: ss
-  - name: "\U0001F1F7\U0001F1FARU_1|1.4MB/s"
-    password: 75356919-6ece-455c-ba7a-9f042a60d2c5
-    port: 443
-    server: tn.xbs54as9c6.ru
-    skip-cert-verify: true
-    sni: live.ok.ru
-    tfo: false
-    type: hysteria2
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_4|572KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.190
-    type: ss
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
-    password: 65f7eaab-6dc7-405a-9e2a-df18554ccbc8
-    port: 20081
-    server: hmtwpro.my169vip.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: hmtwpro.my169vip.top
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1F0\U0001F1F7KR"
-    delay: 1925
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F0\U0001F1F7KR_1|957KB/s"
-    network: ws
-    port: 80
-    server: kr02.a0a.xyz
-    skip-cert-verify: true
-    type: vmess
-    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-    ws-opts:
-      headers:
-        HOST: kr02.a0a.xyz
-        Host: kr02.a0a.xyz
-      path: /%2Fcctv13.m3u8
-    servername: kr02.a0a.xyz
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1F0\U0001F1F7KR_2|856KB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s"
     network: ws
     port: 80
     server: kr02.a0a.xyz
@@ -171,768 +15,29 @@ proxies:
         Host: kr02.a0a.xyz
       path: /cctv13.m3u8
     xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_2|1.8MB/s"
+  - name: "\U0001F1EF\U0001F1F5JP_1|4.5MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
     port: 443
-    server: pl74.mechvpn.online
+    server: cj04.71edgeiqiyi.com
     tls: true
-    type: vless
-    udp: true
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    network: tcp
-    servername: pl74.mechvpn.online
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E6\U0001F1EAAE_1|784KB/s"
-    password: a9d727cd-330b-4edd-8911-7c224df6afd5
-    port: 15987
-    server: 188.208.110.205
-    type: ss
-    udp: true
-  - name: "\U0001F1F0\U0001F1F7KR_3|646KB/s"
-    network: ws
-    port: 443
-    server: 114.110.181.49
-    tls: true
-    type: vless
-    udp: true
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    ws-opts:
-      headers:
-        Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-      path: /
-    servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    name: "\U0001F1F5\U0001F1F1PL_3|2.0MB/s"
-    network: grpc
-    port: 443
-    server: 193.34.212.80.vhub.pro
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-    xudp: true
-    servername: 193.34.212.80.vhub.pro
-  - name: "\U0001F1E9\U0001F1EADE_2|2.5MB/s"
-    network: ws
-    port: 8443
-    server: 38.59.228.122
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_3|1.7MB/s"
-    network: ws
-    port: 443
-    server: 143.20.160.17
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: cj04.71edgeiqiyi.com
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 612
-    name: "\U0001F1FB\U0001F1F3VN_5|955KB/s"
+    name: "\U0001F1FB\U0001F1F3VN_1|628KB/s"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.215
+    server: 103.186.154.190
     type: ss
-  - name: "\U0001F1EB\U0001F1F7FR_2|604KB/s"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 38563
-    server: 83.243.86.103
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    tfo: false
-    type: hysteria2
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|673KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 22000
-    server: 47.79.237.236
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 2096
-    server: 172.64.152.23
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tr
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: ❓Other_1|1.4MB/s
-    network: ws
-    port: 25565
-    server: 118.35.123.83
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: mug.support.gfw.hidns.co
-      max-early-data: 2560
-      path: /danfeng
-    servername: mug.support.gfw.hidns.co
   - cipher: aes-256-cfb
-    delay: 793
-    name: "\U0001F1FB\U0001F1F3VN_6|611KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.254
+    name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 51.15.17.169
     type: ss
     udp: true
-  - name: "\U0001F1E9\U0001F1EADE_4|800KB/s"
-    network: ws
-    port: 443
-    server: 156.226.174.20
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_2|1.9MB/s"
-    network: ws
-    port: 16632
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
-    ws-opts:
-      headers:
-        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
-    network: ws
-    port: 41037
-    server: 216.167.38.98
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 29fe2b50-4387-4e2f-a453-f63cc617a15c
-    ws-opts:
-      path: /
-  - name: "\U0001F1F8\U0001F1EASE_1|530KB/s"
-    network: ws
-    port: 443
-    server: 92.246.137.150
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - name: "\U0001F1EF\U0001F1F5JP_6|2.5MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 4196
-    server: 185.184.223.138
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 749
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG_2|2.7MB/s"
-    port: 47034
-    server: 47.79.236.9
-    skip-cert-verify: true
-    type: vmess
-    uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
-    network: tcp
-  - name: "\U0001F1F8\U0001F1EASE_2|1.2MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 185.102.136.201
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_3|596KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 128.199.128.117
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1EC\U0001F1E7GB_1|811KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.250
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_7|4.4MB/s"
-    network: ws
-    port: 16617
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
-    ws-opts:
-      headers:
-        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-      path: /
-  - name: "\U0001F1E9\U0001F1EADE_5|959KB/s"
-    network: ws
-    port: 443
-    server: 193.233.232.56
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_6|528KB/s"
-    network: ws
-    port: 2053
-    server: 217.144.187.140
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_7|581KB/s"
-    network: ws
-    port: 443
-    server: 94.159.97.192
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_3|2.5MB/s"
-    network: tcp
-    port: 47549
-    reality-opts:
-      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
-    network: tcp
-    port: 11728
-    reality-opts:
-      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - name: "\U0001F1E9\U0001F1EADE_8|526KB/s"
-    network: ws
-    port: 443
-    server: 213.21.241.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_8|3.5MB/s"
-    network: tcp
-    port: 38104
-    reality-opts:
-      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - name: "\U0001F1F9\U0001F1FCTW_2|5.2MB/s"
-    password: 670ea7c5-abbe-41df-970a-22c397c206bb
-    port: 40072
-    server: tw2.catzl.top
-    type: anytls
-    udp: true
-    sni: tw2.catzl.top
-  - name: "\U0001F1EC\U0001F1E7GB_2|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_9|1.8MB/s"
-    network: tcp
-    port: 38104
-    reality-opts:
-      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - name: "\U0001F1F9\U0001F1FCTW_3|2.6MB/s"
-    password: a9a32e5a-fe7f-4e77-acff-7eec5b34404a
-    port: 20081
-    server: hmtwpro.my169vip.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: hmtwpro.my169vip.top
-  - client-fingerprint: firefox
-    name: "\U0001F1F9\U0001F1FCTW_4|574KB/s"
-    network: tcp
-    port: 55089
-    reality-opts:
-      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_10|1.4MB/s"
-    network: tcp
-    port: 21419
-    reality-opts:
-      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_5|1.3MB/s"
-    network: tcp
-    port: 27980
-    reality-opts:
-      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_11|1.1MB/s"
-    network: tcp
-    port: 49524
-    reality-opts:
-      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - name: "\U0001F1EC\U0001F1E7GB_3|613KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.67
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_6|808KB/s"
-    network: tcp
-    port: 11728
-    reality-opts:
-      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_7|743KB/s"
-    network: tcp
-    port: 27980
-    reality-opts:
-      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - name: "\U0001F1EC\U0001F1E7GB_4|2.0MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.208
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1EC\U0001F1E7GB_5|645KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_8|1.0MB/s"
-    network: tcp
-    port: 45071
-    reality-opts:
-      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_9|1.3MB/s"
-    network: tcp
-    port: 45071
-    reality-opts:
-      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - name: "\U0001F1E9\U0001F1EADE_9|1.0MB/s"
-    network: ws
-    port: 443
-    server: 217.144.185.106
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_12|972KB/s"
-    network: tcp
-    port: 13652
-    reality-opts:
-      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_13|1.2MB/s"
-    network: tcp
-    port: 49524
-    reality-opts:
-      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - name: "\U0001F1F9\U0001F1FCTW_5|709KB/s"
-    password: bb7ad382-7135-4bcb-acc5-d553e569d092
-    port: 20081
-    server: hmtwpro.my169vip.top
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: hmtwpro.my169vip.top
-  - client-fingerprint: firefox
-    name: "\U0001F1ED\U0001F1F0HK_10|1.4MB/s"
-    network: tcp
-    port: 47549
-    reality-opts:
-      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_4|513KB/s"
-    network: ws
-    port: 443
-    server: 18.143.76.130
-    tls: true
-    type: vless
-    udp: true
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    ws-opts:
-      headers:
-        Host: 1-aym.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /proxyip%3DProxyIP.DE.owg.dpdns.org
-    xudp: true
-    servername: 1-aym.pages.dev
-  - name: "\U0001F1EC\U0001F1E7GB_6|713KB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.167
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    network: tcp
-    port: 15463
-    reality-opts:
-      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1FA\U0001F1F8US_4|810KB/s"
-    network: tcp
-    port: 43746
-    reality-opts:
-      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_14|1.3MB/s"
-    network: tcp
-    port: 13652
-    reality-opts:
-      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc01578f-a029-46e9-b7b1-e26a38bbbe6a
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1FA\U0001F1F8US_5|757KB/s"
-    network: tcp
-    port: 15463
-    reality-opts:
-      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5JP_15|1.5MB/s"
-    network: tcp
-    port: 21419
-    reality-opts:
-      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_7|1.5MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.253
-    type: ss
-  - client-fingerprint: firefox
-    name: "\U0001F1F9\U0001F1FCTW_6|2.0MB/s"
-    network: tcp
-    port: 26850
-    reality-opts:
-      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: firefox
-    name: "\U0001F1FA\U0001F1F8US_6|686KB/s"
-    network: tcp
-    port: 43746
-    reality-opts:
-      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - name: "\U0001F1EC\U0001F1E7GB_7|1.2MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.229
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_4|2.9MB/s"
-    network: ws
-    port: 443
-    server: 193.123.233.168
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: joss.jak.biz.id
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: joss.jak.biz.id
-  - client-fingerprint: firefox
-    name: "\U0001F1F9\U0001F1FCTW_7|753KB/s"
-    network: tcp
-    port: 55089
-    reality-opts:
-      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
-    server: tt.myfczy169.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6c7330b-1d16-427b-9615-b52975702ebc
-    servername: www.speedtest.net
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_1|2.8MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
     network: ws
     port: 443
     server: 160.153.1.88
@@ -949,8 +54,265 @@ proxies:
       path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
     xudp: true
     servername: sni.111000.dynv6.net
+  - name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+    network: ws
+    port: 2083
+    server: xn-dns.onlineblog.ir
+    tls: true
+    type: vless
+    uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+    ws-opts:
+      headers:
+        Host: xn-de.shakhle.ir.
+      path: /
+    servername: xn-de.shakhle.ir.
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_5|1.1MB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|699KB/s"
+    port: 443
+    reality-opts:
+      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+      short-id: "d1f93724859d75ac"
+    server: pl2-gws4.onnstreaming.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+    network: tcp
+    servername: pl2-gws4.onnstreaming.ru
+  - name: "\U0001F1F9\U0001F1FCTW_1|667KB/s"
+    password: bb7ad382-7135-4bcb-acc5-d553e569d092
+    port: 20081
+    server: hmtwpro.my169vip.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hmtwpro.my169vip.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|1.2MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 443
+    server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  - name: "\U0001F1EF\U0001F1F5JP_3|4.1MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 40443
+    server: jbu654714155239871.j4cdn.cdnxiaohongshu.com
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: jbu654714155239871.j4cdn.cdnxiaohongshu.com
+  - name: "\U0001F1F9\U0001F1FCTW_2|1.2MB/s"
+    password: a1fca628-aa94-4642-a54d-4007c118d198
+    port: 20081
+    server: hmtwpro.my169vip.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hmtwpro.my169vip.top
+  - name: "\U0001F1F7\U0001F1FARU_1|1.7MB/s"
+    password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+    port: 443
+    server: tn.xbs54as9c6.ru
+    skip-cert-verify: true
+    sni: live.ok.ru
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1F8\U0001F1ECSG_1|5.0MB/s"
+    network: tcp
+    port: 22539
+    server: node1.nanonet.host
+    tls: true
+    type: vless
+    udp: true
+    uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
+    servername: node1.nanonet.host
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F5\U0001F1F1PL_1|1.9MB/s"
+    network: grpc
+    port: 443
+    server: 193.34.212.80.vhub.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
+    xudp: true
+    servername: 193.34.212.80.vhub.pro
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+    obfs: salamander
+    obfs-password: YmGRdMZ74sEC91FN
+    password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+    port: 20003
+    server: zz.66jc.xyz
+    skip-cert-verify: true
+    sni: hkzz.66jc.xyz
+    type: hysteria2
+    up: ''
+  - ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: ❓Other_1|3.0MB/s
+    network: ws
+    port: 10162
+    server: 14.43.187.155
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: mug.support.gfw.hidns.co
+      max-early-data: 2560
+      path: /danfeng
+    servername: mug.support.gfw.hidns.co
+  - name: "\U0001F1EF\U0001F1F5JP_4|2.3MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 40443
+    server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 541
+    name: "\U0001F1FB\U0001F1F3VN_2|990KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.54
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_3|525KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.204
+    type: ss
+  - name: "\U0001F1F9\U0001F1FCTW_3|1.6MB/s"
+    password: a9a32e5a-fe7f-4e77-acff-7eec5b34404a
+    port: 20081
+    server: hmtwpro.my169vip.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hmtwpro.my169vip.top
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s"
+    network: tcp
+    port: 27980
+    reality-opts:
+      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1F9\U0001F1FCTW_4|1.8MB/s"
+    network: tcp
+    port: 55089
+    reality-opts:
+      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s"
+    network: tcp
+    port: 47549
+    reality-opts:
+      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_5|2.6MB/s"
+    network: tcp
+    port: 38104
+    reality-opts:
+      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - name: "\U0001F1F9\U0001F1FCTW_5|2.5MB/s"
+    password: 65f7eaab-6dc7-405a-9e2a-df18554ccbc8
+    port: 20081
+    server: hmtwpro.my169vip.top
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hmtwpro.my169vip.top
+  - cipher: aes-256-cfb
+    delay: 504
+    name: "\U0001F1FB\U0001F1F3VN_4|541KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.40
+    type: ss
+    udp: true
+  - ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_2|2.6MB/s"
+    network: ws
+    port: 18979
+    server: 221.156.27.142
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: mug.support.gfw.hidns.co
+      max-early-data: 2560
+      path: /danfeng
+    servername: mug.support.gfw.hidns.co
+  - cipher: aes-256-cfb
+    delay: 531
+    name: "\U0001F1FB\U0001F1F3VN_5|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.49
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_6|2.0MB/s"
+    network: tcp
+    port: 49524
+    reality-opts:
+      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_2|1.1MB/s"
     network: ws
     port: 443
     server: 216.236.53.43
@@ -967,38 +329,495 @@ proxies:
       path: /fp=chrome
     xudp: true
     servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_8|1.5MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.198
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_9|1.1MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.33
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_10|659KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.119
-    type: ss
   - client-fingerprint: firefox
-    name: ❓Other_2|2.0MB/s
+    name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s"
     network: tcp
-    port: 443
+    port: 11728
     reality-opts:
-      public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
-      short-id: "239dcd11"
-    server: 57.128.81.193
+      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
+    server: tt.myfczy169.top
     tls: true
     type: vless
     udp: true
-    uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_3|1.1MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 22000
+    server: 47.79.237.236
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_4|1.1MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 128.199.128.117
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F5\U0001F1F1PL_2|1.2MB/s"
+    network: grpc
+    port: 443
+    server: 193.34.212.80
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
     xudp: true
-    servername: www.samsung.com
+    servername: 193.34.212.80.vhub.pro
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_3|536KB/s"
+    port: 443
+    reality-opts:
+      public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
+      short-id: "aa69f619e4414362"
+    server: 150.241.103.74
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+    network: tcp
+    servername: st-2.globalcache.onnstreaming.ru
+  - client-fingerprint: firefox
+    name: "\U0001F1F9\U0001F1FCTW_6|994KB/s"
+    network: tcp
+    port: 55089
+    reality-opts:
+      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_5|693KB/s"
+    network: tcp
+    port: 11728
+    reality-opts:
+      public-key: yW-Ngpufx9rpkZUw9LY3p5bPYiYjwTeb3ge9BZaNbB8
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_6|1.7MB/s"
+    network: tcp
+    port: 45071
+    reality-opts:
+      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_7|1.4MB/s"
+    network: tcp
+    port: 38104
+    reality-opts:
+      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s"
+    network: tcp
+    port: 43746
+    reality-opts:
+      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1FA\U0001F1F8US_5|1.0MB/s"
+    network: tcp
+    port: 43746
+    reality-opts:
+      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1F9\U0001F1FCTW_7|758KB/s"
+    network: tcp
+    port: 26850
+    reality-opts:
+      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_8|1.1MB/s"
+    network: tcp
+    port: 13652
+    reality-opts:
+      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_9|862KB/s"
+    network: tcp
+    port: 13652
+    reality-opts:
+      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1F9\U0001F1FCTW_8|602KB/s"
+    network: tcp
+    port: 26850
+    reality-opts:
+      public-key: Wpm7b9vZcsv6adTx7vABYheVBz1dyv_tpQSIMc4cOBI
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1FA\U0001F1F8US_6|1.0MB/s"
+    network: tcp
+    port: 15463
+    reality-opts:
+      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1FA\U0001F1F8US_7|616KB/s"
+    network: tcp
+    port: 15463
+    reality-opts:
+      public-key: FNH_7dovv4X2rOixQyBA9gxIVD3BFVoGCpYjK5Bsm1U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_7|1.5MB/s"
+    network: tcp
+    port: 45071
+    reality-opts:
+      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_10|1.2MB/s"
+    network: tcp
+    port: 21419
+    reality-opts:
+      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_11|1.3MB/s"
+    network: tcp
+    port: 49524
+    reality-opts:
+      public-key: Kfa9ZS1ZXPRINRQDaZoTRzapfYaBpm_7vpqTvOIF10o
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: firefox
+    name: "\U0001F1ED\U0001F1F0HK_8|1.4MB/s"
+    network: tcp
+    port: 47549
+    reality-opts:
+      public-key: rRzYienelSo7dk-Aus4V2jtshUyeO7jL22gFfE5oByo
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24446956-2df6-4db9-8b66-3a19c11cfa3b
+    servername: www.speedtest.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_5|1.5MB/s"
+    network: ws
+    password: t5x8f9w2k4m6n1p0
+    port: 443
+    server: 43.160.247.81
+    skip-cert-verify: false
+    sni: vpn5.rnmcnm.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /ws
+  - cipher: aes-256-cfb
+    delay: 761
+    name: "\U0001F1FB\U0001F1F3VN_6|1015KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.226
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2|735KB/s
+    network: ws
+    port: 22000
+    server: 47.79.237.236
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.rr.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /danfeng
+    xudp: true
+    servername: snippet.danfeng.rr.kg
+  - name: "\U0001F1F8\U0001F1ECSG_6|3.1MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 139.59.239.116
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: ❓Other_3|2.1MB/s
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-005.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-005.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: firefox
+    name: "\U0001F1EF\U0001F1F5JP_12|746KB/s"
+    network: tcp
+    port: 21419
+    reality-opts:
+      public-key: ZzBIBYgItS8NRz1SsmHnv2f_Jg-EuGr1eELZPlXIx2U
+    server: tt.myfczy169.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 92b97d72-6dc0-4785-8e80-8e44c877a55a
+    servername: www.speedtest.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
+    network: tcp
+    port: 8443
+    server: 152.233.28.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    xudp: true
+    servername: uk1.fromblancwithlove.com
+  - name: "\U0001F1F7\U0001F1FARU_2|565KB/s"
+    network: ws
+    port: 7000
+    server: 178.72.186.76
+    type: vless
+    udp: true
+    uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /stream
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.9MB/s"
+    network: tcp
+    port: 8443
+    server: 152.233.35.228
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    xudp: true
+    servername: de1.fromblancwithlove.com
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F9\U0001F1EDTH_1|613KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      short-id: ''
+    server: 47.87.65.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    xudp: true
+    servername: api.digital-help-prd.autodesk.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_7|601KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.182
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_7|538KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 43.160.207.33
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1F7\U0001F1FARU_3|858KB/s"
+    network: ws
+    port: 4100
+    server: 217.114.9.170
+    type: vless
+    udp: true
+    uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+    ws-opts:
+      headers:
+        Host: live.ok.ru
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /v1
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_13|2.6MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 17081
+    server: 176.119.148.212
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_8|651KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.59
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_9|786KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.235
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_10|557KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.214
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_11|837KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.2
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_12|619KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.13
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_13|720KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.32
+    type: ss
+  - name: "\U0001F1F8\U0001F1EASE_1|689KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 193.23.201.26
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
